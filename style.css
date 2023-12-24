@@ -13,6 +13,7 @@
     box-sizing: border-box;
     font-family: 'Figtree', sans-serif;
     text-decoration: none;
+    scroll-behavior: smooth;
 }
 
 body{
@@ -20,175 +21,108 @@ body{
     width:  100%;
 }
 
-.card{
+section{
     display: flex;
     justify-content: center;
     align-items: center;
-    text-align: center;
-    height: 90vh;
-    margin-top: 1rem;
+    height: 100vh;
+}
+
+.card{
+    background-color: var(--white);
+    width: 20rem;
+    height: 80vh;
+    border-radius: 9px;
+    box-shadow: 1.4rem 2rem 3rem var(--black);
+    border: .1rem solid var(--black);
 }
 
 .container{
-    width: 300px;
-    height: 85vh;
-    background-color: var(--white);
-    padding: 2rem;
-    border-radius: 10px;
-    box-shadow: 3px 5px 10px var(--black);
+    padding: 2rem 2rem;
 }
 
 .img img{
-    width: 250px;
-    border-radius: 10px;
+    width: 260px;
+    border-radius: 9px;
 }
 
-.text{
-    text-align: left;
-}
-
-.text button{
+.items button{
+    margin-top: .2rem;
     background-color: var(--yellow);
-    border: none;
-    border-radius: 5px;
-    width: 100px;
-    margin-top: 1rem;
-    padding: 0.3rem;
+    width: 5rem;
+    height: 1.5rem;
+    border-radius: 9px;
     color: black;
-    font-weight: 600;
+    font-weight: bold;
+    border: none;
 }
 
-.text h6{
-    font-size: 1rem;
-    font-weight: 300;
-    padding-top: 0.8rem;
-    color: var(--grey);
-}
-
-.text h1{
+.items h6{
+    margin: .6rem 0;
+    font-weight: lighter;
     color: var(--black);
-    padding: 1rem 0;
-    font-size: 1.2rem;
-    padding: 0.5rem 0;
 }
 
-.text p{
-    font-size: 1rem;
-    font-weight: 300;
+.items h1{
+    color: var(--black);
+    margin-bottom: .5rem;
+    line-height: 1.3;
+    font-size: 1.3rem;
+    cursor: pointer;
+}
+
+.items h1:hover{
+    color: var(--yellow);
+}
+
+.items p{
+    font-size: .9rem;
     color: var(--grey);
-    padding-bottom: 19px;
-    margin-top: 1rem;
+    line-height: 1.5;
 }
 
 .id{
     display: flex;
     align-items: center;
-    gap: 15px;
+    gap: 1rem;
+    margin: 1rem 0;
 }
 
 .id img{
     width: 50px;
-    height: 50px;
 }
-
 
 .id p{
     font-weight: 800;
-    color: var(--black);
+    font-size: .9rem;
 }
 
-.attribution {
-    margin: 1rem 0;
-    font-size: 0.5rem; 
-    text-align: center; 
-}
-
-.attribution a { 
-    color: var(--black);
-    font-weight: 800;
-}
-
-@media (min-width: 1000px){
-    body{
-        background-color: var(--yellow);
-        width:  100%;
-    }
-    
+@media (min-width: 800px){
     .card{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
-        height: 90vh;
-        margin-top: 1rem;
+        width: 390px;
+        height: 85vh;
+        border-radius: 9px;
     }
-    
+
     .container{
-        width: 400px;
-        height: 90vh;
-        background-color: var(--white);
-        padding: 2rem;
-        border-radius: 10px;
-        box-shadow: 3px 5px 10px var(--black);
+        padding: 2rem 2rem;
+        justify-content: center;
     }
-    
+
     .img img{
-        width: 320px;
-        border-radius: 10px;
+        width: 20rem;
     }
-    
-    .text{
-        text-align: left;
+
+    .items button{
+        width: 5rem;
     }
-    
-    .text button{
-        background-color: var(--yellow);
-        border: none;
-        border-radius: 5px;
-        width: 100px;
-        padding: 0.3rem;
-        color: black;
-        font-weight: 600;
+
+    .items h1{
+        font-size: 1.7rem;
     }
-    
-    .text h6{
-        font-size: 20px;
-        font-weight: 300;
-        padding-top: 1rem;
-        color: var(--grey);
-    }
-    
-    .text h1{
-        color: var(--yellow);
-        font-size: 25px;
-        padding: 0.5rem 0;
-    }
-    
-    .text p{
-        font-size: 1rem;
-        font-weight: 300;
-        color: var(--grey);
-        padding-bottom: 19px;
-    }
-    
+
     .id{
-        display: flex;
-        align-items: center;
-        gap: 15px;
-    }
-    
-    .id p{
-        font-weight: 800;
-        color: var(--black);
-    }
-    
-    .attribution {
-        margin-top: 1rem; 
-        font-size: 1rem; 
-        text-align: center; 
-    }
-    
-    .attribution a { 
-        color: hsl(228, 45%, 44%); 
+        margin: .5rem 0;
     }
 }
+
