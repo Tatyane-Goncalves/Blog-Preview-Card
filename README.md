@@ -33,7 +33,7 @@ Os usuários devem ser capazes de:
 - Veja os estados de foco e foco para todos os elementos interativos na página
 
 ### Captura de tela
-![](./captura de tela.jpg)![captura-de-tela](https://github.com/Tatyane-Goncalves/Blog-Preview-Card/assets/135237271/43b49174-825d-42e8-be01-6a05e4a85590)
+![captura-de-tela](https://github.com/Tatyane-Goncalves/Blog-Preview-Card/assets/135237271/43b49174-825d-42e8-be01-6a05e4a85590)
 
 
 ###Links
