@@ -33,22 +33,11 @@ Os usuários devem ser capazes de:
 - Veja os estados de foco e foco para todos os elementos interativos na página
 
 ### Captura de tela
+![](./captura de tela.jpg)![captura-de-tela](https://github.com/Tatyane-Goncalves/Blog-Preview-Card/assets/135237271/43b49174-825d-42e8-be01-6a05e4a85590)
 
-![](./captura de tela.jpg)
-
-Adicione uma captura de tela da sua solução. A maneira mais fácil de fazer isso é usar o Firefox para visualizar seu projeto, clicar com o botão direito na página e selecionar “Fazer uma captura de tela”. Você pode escolher uma captura de tela de altura total ou cortada com base no comprimento da página. Se for muito longo, talvez seja melhor cortá-lo.
-
-
-Alternativamente, você pode usar uma ferramenta como [FireShot](https://getfireshot.com/) para fazer a captura de tela. FireShot tem uma opção gratuita, então você não precisa comprá-la.
-
-Em seguida, corte/otimize/edite sua imagem como desejar, adicione-a ao seu projeto e atualize o caminho do arquivo na imagem acima.
-
-**Nota: Exclua esta nota e os parágrafos acima ao adicionar sua captura de tela. Se preferir não adicionar uma captura de tela, sinta-se à vontade para remover esta seção inteira.**
 
 ###Links
-
-- URL da solução: [Adicione o URL da solução aqui](https://your-solution-url.com)
-- URL do site ativo: [Adicione o URL do site ativo aqui](https://your-live-site-url.com)
+- URL do site ativo: (https://tatyane-goncalves.github.io/Blog-Preview-Card/)
 
 
 ## Meu processo
